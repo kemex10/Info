@@ -62,14 +62,13 @@ function onYouTubeIframeAPIReady(slides) {
 }
 
 //=============================================   Sorting af data type   ========================================//
-//Ting vi skal gøre
-//Autoplay og mute, Karussel for Media tingetang, Køre nyt iteration efter videon er færdig 
+
 function creatingMedia(title, file) {
     if(file) {
-        //Få faking henz til at give link til billede
-        console.log("IM A TOTALLY TRUE IMAGE");
+
+        console.log("IMAGE");
     } else {
-        console.log("Someone decided not to give a path at ALL!");
+        console.log(" not path at ALL!");
     }
 }
 
